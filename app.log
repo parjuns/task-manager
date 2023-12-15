@@ -1,0 +1,28 @@
+[GIN-debug] POST   /api/v1/auth/register     --> github.com/Parjun2000/task-manager/handlers.Register (6 handlers)
+[GIN-debug] POST   /api/v1/auth/login        --> github.com/Parjun2000/task-manager/handlers.Login (6 handlers)
+[GIN-debug] GET    /api/v1/tasks/            --> github.com/Parjun2000/task-manager/handlers.GetTasks (7 handlers)
+[GIN-debug] POST   /api/v1/tasks/            --> github.com/Parjun2000/task-manager/handlers.CreateTask (7 handlers)
+[GIN-debug] GET    /api/v1/tasks/:id         --> github.com/Parjun2000/task-manager/handlers.GetTaskByID (7 handlers)
+[GIN-debug] PUT    /api/v1/tasks/:id         --> github.com/Parjun2000/task-manager/handlers.UpdateTask (7 handlers)
+[GIN-debug] DELETE /api/v1/tasks/:id         --> github.com/Parjun2000/task-manager/handlers.DeleteTask (7 handlers)
+[GIN-debug] PUT    /api/v1/tasks/mark-done   --> github.com/Parjun2000/task-manager/handlers.MarkTasksDoneConcurrently (7 handlers)
+[GIN-debug] GET    /api/v1/swagger/*any      --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+127.0.0.1 - [Fri, 15 Dec 2023 11:26:33 IST] 
+POST
+/api/v1/auth/register
+HTTP/1.1
+500
+97.5572ms
+"got (https://github.com/sindresorhus/got)"
+
+127.0.0.1 - [Fri, 15 Dec 2023 11:26:41 IST] 
+POST
+/api/v1/auth/register
+HTTP/1.1
+200
+89.0998ms
+"got (https://github.com/sindresorhus/got)"
+
